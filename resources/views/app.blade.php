@@ -11,7 +11,7 @@
 
     <!-- Scripts -->
     @viteReactRefresh
-    @vite('resources/js/app.jsx')
+    @vite('resources/ts/app.tsx')
     @inertiaHead
 </head>
 <body class="font-sans antialiased">
