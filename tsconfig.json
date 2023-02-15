@@ -17,8 +17,10 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "paths": {
-      "@/*": ["resources/ts/*"]
-    }
+      "~/*": ["resources/ts/*"]
+    },
+    "types": ["@emotion/react/types/css-prop"],
+    "jsxImportSource": "@emotion/react"
   },
   "include": ["resources/ts/**/*"],
 }
