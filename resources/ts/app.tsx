@@ -1,6 +1,7 @@
 import React from 'react'
 import { render } from 'react-dom'
 import { createInertiaApp } from '@inertiajs/inertia-react'
+import { ChakraProvider } from '@chakra-ui/react'
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers'
 
 const appName =
@@ -14,6 +15,11 @@ createInertiaApp({
       import.meta.glob('./Pages/**/*.tsx')
     ),
   setup({el, App, props}) {
-    return render(<App {...props} />, el);
+    return render(
+      <ChakraProvider>
+        <App {...props} />
+      </ChakraProvider>,
+      el
+    );
   },
 });
