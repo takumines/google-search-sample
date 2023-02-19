@@ -14,3 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',\App\Http\Controllers\Search\IndexController::class)->name('search.index');
+Route::get('/search', \App\Http\Controllers\Search\SearchController::class)->name('search');
