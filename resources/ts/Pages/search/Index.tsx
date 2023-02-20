@@ -1,8 +1,7 @@
 import React from 'react'
-import { SearchInput } from '~/components/SearchInput'
-import { SearchHeading } from '~/components/SearchHeading'
+import { SearchHeading } from '~/components/molecules/SearchHeading'
 import { Center, VStack } from '@chakra-ui/react'
-import { SearchButton } from '~/components/SearchButton'
+import SearchForm from '~/components/organisms/SearchForm'
 
 export default function Index() {
   return (
@@ -11,12 +10,7 @@ export default function Index() {
         <Center>
           <SearchHeading size={'large'} title={'Goggle'} />
         </Center>
-        <Center>
-          <SearchInput />
-        </Center>
-        <Center>
-          <SearchButton title={'検索'} />
-        </Center>
+        <SearchForm />
       </VStack>
     </>
   )

@@ -3,11 +3,12 @@ import { Button } from '@chakra-ui/react'
 
 type Props = {
   title: string
+  disabled: boolean
 }
 
-export const SearchButton: FC<Props> = ({ title }) => {
+const SearchButton: FC<Props> = ({ title, disabled = false }) => {
   return (
-    <Button colorScheme='teal' size='md'>
+    <Button type='submit' colorScheme='teal' size='md' disabled={disabled}>
       { title }
     </Button>
   )
