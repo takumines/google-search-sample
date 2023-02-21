@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { FC, memo } from 'react'
 import { SearchHeading } from '~/components/molecules/SearchHeading'
 import { Center, VStack } from '@chakra-ui/react'
 import SearchForm from '~/components/organisms/SearchForm'
 
-export default function Index() {
+const Index: FC = () =>  {
   return (
     <>
       <VStack marginTop={180} spacing={10}>
@@ -15,3 +15,5 @@ export default function Index() {
     </>
   )
 }
+
+export default memo(Index)
