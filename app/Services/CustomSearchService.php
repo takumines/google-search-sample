@@ -71,6 +71,8 @@ class CustomSearchService
                 'key' => $this->apiKey,
                 'q' => $word,
                 'num' => self::NUM_RESULTS,
+                'lr' => 'lang_ja',
+                'gl' => 'ja',
                 'start' => $start,
             ]);
     }

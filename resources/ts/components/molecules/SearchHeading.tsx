@@ -6,7 +6,7 @@ type Props = {
   title: string
 }
 
-export const SearchHeading: FC<Props> = ({ size, title }) => {
+const SearchHeading: FC<Props> = ({ size, title }) => {
   let baseOptionProps = { as: 'h2', size: '3xl' }
   // asはany型のためanyを使用
   let optionProps: { as: any, size: string}

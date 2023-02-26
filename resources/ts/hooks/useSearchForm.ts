@@ -1,19 +1,21 @@
 import { ChangeEvent, FormEvent, useCallback } from 'react'
 import { useForm } from '@inertiajs/inertia-react'
+import { getWordParam } from '~/utils/queryParam'
 
 export const useSearchForm = () => {
   const { data, setData, get, processing } = useForm({
-    word: ''
+    word: getWordParam()
   })
 
   const onChangeWord = useCallback((e: ChangeEvent<HTMLInputElement>): void => {
     setData('word', e.target.value)
-    console.log(data)
   }, [data])
 
   const onSubmit = useCallback((e: FormEvent<HTMLFormElement>): void => {
     e.preventDefault()
-    get('/search')
+    if (data.word?.length !== 0) {
+      get('/search')
+    }
   }, [data])
 
   return {
