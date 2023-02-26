@@ -5,6 +5,7 @@ import { Paginate } from '~/types/paginate'
 import SearchResultCard from '~/components/molecules/SearchResultCard'
 import SearchResultForm from '~/components/organisms/SearchResultForm'
 import SearchHeading from '~/components/molecules/SearchHeading'
+import SearchResultPaginate from '~/components/molecules/SearchResultPaginate'
 
 type Props = {
   results: SearchResult[]
@@ -14,7 +15,7 @@ type Props = {
 const Result: FC<Props> = ({results, meta}) => {
   return (
     <>
-      <Stack mx={{base: '16px', sm:'16px', md:'16px', lg: '56px'}}>
+      <Stack mx={{base: '16px', sm:'16px', md:'16px', lg: '56px'}} mb={8}>
         <HStack
           mt={4}
           mb={4}
@@ -35,6 +36,7 @@ const Result: FC<Props> = ({results, meta}) => {
             ))}
           </SimpleGrid>
         </VStack>
+        <SearchResultPaginate paginate={meta}/>
       </Stack>
     </>
   )
