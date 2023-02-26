@@ -9,7 +9,7 @@ type Props = {
 
 const SearchInput: FC<Props> = ({ value, onChange }) => {
   return (
-    <InputGroup width={584}>
+    <InputGroup width={{ sm:'100%', md:'584px', lg:'584px' }}>
       <InputLeftElement pointerEvents='none' color='gray.500' h="full" children={<SearchIcon />} />
       <Input type='text' value={value} size='lg' onChange={onChange}/>
     </InputGroup>

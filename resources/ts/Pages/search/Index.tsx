@@ -1,5 +1,5 @@
 import React, { FC, memo } from 'react'
-import { SearchHeading } from '~/components/molecules/SearchHeading'
+import SearchHeading from '~/components/molecules/SearchHeading'
 import { Center, VStack } from '@chakra-ui/react'
 import SearchForm from '~/components/organisms/SearchForm'
 
