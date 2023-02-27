@@ -3,9 +3,11 @@
 ## 使用技術
 - PHP 8.2.2
 - Laravel 9.52.0
-- React 18.2
+- TypeScript 4.9.5
+- React 18.2.0
 - Inertia (SPA構成を行うために使用)
 - Chakra UI
+- Docker (Laravel Sail)
 
 ## Installation
 1. Clone the repository
