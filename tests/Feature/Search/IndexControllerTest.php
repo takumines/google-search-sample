@@ -13,7 +13,7 @@ class IndexControllerTest extends TestCase
      */
     public function 検索画面が表示されること()
     {
-        $response = $this->get(route('search.index'));
+        $response = $this->get(route('index'));
 
         $response->assertInertia(fn (Assert $page) => $page
             ->component('search/Index'));

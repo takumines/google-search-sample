@@ -1,0 +1,561 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - Laravel",
+        "totalResults": "3500000",
+        "searchTerms": "Laravel",
+        "count": 10,
+        "startIndex": 1,
+        "language": "lang_ja",
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "f7bb8875558c54dfb",
+        "gl": "ja"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - Laravel",
+        "totalResults": "3500000",
+        "searchTerms": "Laravel",
+        "count": 10,
+        "startIndex": 11,
+        "language": "lang_ja",
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "f7bb8875558c54dfb",
+        "gl": "ja"
+      }
+    ]
+  },
+  "context": {
+    "title": "goggle"
+  },
+  "searchInformation": {
+    "searchTime": 0.280948,
+    "formattedSearchTime": "0.28",
+    "totalResults": "3500000",
+    "formattedTotalResults": "3,500,000"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Releases · barryvdh/laravel-ide-helper",
+      "htmlTitle": "Releases · barryvdh/\u003cb\u003elaravel\u003c/b\u003e-ide-helper",
+      "link": "https://github.com/barryvdh/laravel-ide-helper/releases",
+      "displayLink": "github.com",
+      "snippet": "IDE Helper for Laravel. Contribute to barryvdh/laravel-ide-helper development by creating an account on GitHub.",
+      "htmlSnippet": "IDE Helper for \u003cb\u003eLaravel\u003c/b\u003e. Contribute to barryvdh/\u003cb\u003elaravel\u003c/b\u003e-ide-helper development by creating an account on GitHub.",
+      "cacheId": "DERzAZpS830J",
+      "formattedUrl": "https://github.com/barryvdh/laravel-ide-helper/releases",
+      "htmlFormattedUrl": "https://github.com/barryvdh/\u003cb\u003elaravel\u003c/b\u003e-ide-helper/releases",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRJKXOyjTsEh51YqsqPdAbb1kTAeMfpZTtFVShzunuO5VIC7YmRnbUePKB3",
+            "width": "318",
+            "height": "159"
+          }
+        ],
+        "softwaresourcecode": [
+          {
+            "author": "barryvdh",
+            "name": "laravel-ide-helper"
+          }
+        ],
+        "metatags": [
+          {
+            "octolytics-url": "https://collector.github.com/github/collect",
+            "apple-itunes-app": "app-id=1477376905",
+            "og:image": "https://opengraph.githubassets.com/278dd43425fad7b7d833ba9e36cc2f0cca71321fbb7f1d9e4ff0cb8df948143c/barryvdh/laravel-ide-helper",
+            "twitter:card": "summary_large_image",
+            "og:image:width": "1200",
+            "theme-color": "#1e2327",
+            "og:site_name": "GitHub",
+            "hovercard-subject-tag": "repository:8678290",
+            "turbo-body-classes": "logged-out env-production page-responsive",
+            "html-safe-nonce": "2735957d73a85406aa6ea572a58da29c1f79ede58731f8e98fa6fc267ed653e8",
+            "expected-hostname": "github.com",
+            "og:description": "IDE Helper for Laravel. Contribute to barryvdh/laravel-ide-helper development by creating an account on GitHub.",
+            "browser-errors-url": "https://api.github.com/_private/browser/errors",
+            "octolytics-dimension-user_login": "barryvdh",
+            "hostname": "github.com",
+            "twitter:site": "@github",
+            "browser-stats-url": "https://api.github.com/_private/browser/stats",
+            "visitor-payload": "eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJGRUNFOjI4MDg6MUQ0MkExNDoyQzM0QzEyOjYzRjYxMEZCIiwidmlzaXRvcl9pZCI6IjQ4NDkyMDQzMjU4MjI4OTQzMzIiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==",
+            "github-keyboard-shortcuts": "repository",
+            "octolytics-dimension-repository_id": "8678290",
+            "octolytics-dimension-repository_network_root_nwo": "barryvdh/laravel-ide-helper",
+            "enabled-features": "TURBO_EXPERIMENT_RISKY,IMAGE_METRIC_TRACKING,GEOJSON_AZURE_MAPS",
+            "twitter:title": "Releases · barryvdh/laravel-ide-helper",
+            "og:image:alt": "IDE Helper for Laravel. Contribute to barryvdh/laravel-ide-helper development by creating an account on GitHub.",
+            "og:type": "object",
+            "og:title": "Releases · barryvdh/laravel-ide-helper",
+            "visitor-hmac": "8f388f9a08b7c3f2d75b9d9fa289e0bdca6fe37c31b62caa7e95c0249c00017c",
+            "og:image:height": "600",
+            "turbo-cache-control": "no-preview",
+            "request-id": "FECE:2808:1D42A14:2C34C12:63F610FB",
+            "analytics-location": "/\u003cuser-name\u003e/\u003crepo-name\u003e/releases/index",
+            "color-scheme": "light dark",
+            "octolytics-dimension-repository_is_fork": "false",
+            "go-import": "github.com/barryvdh/laravel-ide-helper git https://github.com/barryvdh/laravel-ide-helper.git",
+            "browser-optimizely-client-errors-url": "https://api.github.com/_private/browser/optimizely_client/errors",
+            "twitter:image:src": "https://opengraph.githubassets.com/278dd43425fad7b7d833ba9e36cc2f0cca71321fbb7f1d9e4ff0cb8df948143c/barryvdh/laravel-ide-helper",
+            "octolytics-dimension-user_id": "973269",
+            "octolytics-dimension-repository_public": "true",
+            "fb:app_id": "1401488693436528",
+            "octolytics-dimension-repository_network_root_id": "8678290",
+            "octolytics-dimension-repository_nwo": "barryvdh/laravel-ide-helper",
+            "viewport": "width=device-width",
+            "twitter:description": "IDE Helper for Laravel. Contribute to barryvdh/laravel-ide-helper development by creating an account on GitHub.",
+            "og:url": "/barryvdh/laravel-ide-helper/releases"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://opengraph.githubassets.com/278dd43425fad7b7d833ba9e36cc2f0cca71321fbb7f1d9e4ff0cb8df948143c/barryvdh/laravel-ide-helper"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Laravel - ウェブ職人のためのPHPフレームワーク",
+      "htmlTitle": "\u003cb\u003eLaravel\u003c/b\u003e - ウェブ職人のためのPHPフレームワーク",
+      "link": "http://laravel.jp/",
+      "displayLink": "laravel.jp",
+      "snippet": "PHPに支障はありません。楽しくコーディングし、新しい息吹を楽しんでください。 クイックスタート Laravel Meetup Tokyo Vol.6 · Laravel.",
+      "htmlSnippet": "PHPに支障はありません。楽しくコーディングし、新しい息吹を楽しんでください。 クイックスタート \u003cb\u003eLaravel\u003c/b\u003e Meetup Tokyo Vol.6 &middot; \u003cb\u003eLaravel\u003c/b\u003e.",
+      "cacheId": "6XE5WscRmXEJ",
+      "formattedUrl": "laravel.jp/",
+      "htmlFormattedUrl": "\u003cb\u003elaravel\u003c/b\u003e.jp/",
+      "pagemap": {
+        "metatags": [
+          {
+            "author": "iKreativ"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "fortify/routes.php at 1.x · laravel/fortify · GitHub",
+      "htmlTitle": "fortify/routes.php at 1.x · \u003cb\u003elaravel\u003c/b\u003e/fortify · GitHub",
+      "link": "https://github.com/laravel/fortify/blob/1.x/routes/routes.php",
+      "displayLink": "github.com",
+      "snippet": "Backend controllers and scaffolding for Laravel authentication. - fortify/routes.php at 1.x · laravel/fortify.",
+      "htmlSnippet": "Backend controllers and scaffolding for \u003cb\u003eLaravel\u003c/b\u003e authentication. - fortify/routes.php at 1.x · \u003cb\u003elaravel\u003c/b\u003e/fortify.",
+      "cacheId": "zEfP53zZGdkJ",
+      "formattedUrl": "https://github.com/laravel/fortify/blob/1.x/routes/routes.php",
+      "htmlFormattedUrl": "https://github.com/\u003cb\u003elaravel\u003c/b\u003e/fortify/blob/1.x/routes/routes.php",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR40H18_3Kt-DilgS8AYLyB1jCyAtpQiAMSVWkA6KJdymbcIXUeGwGJK_-D",
+            "width": "318",
+            "height": "159"
+          }
+        ],
+        "softwaresourcecode": [
+          {
+            "author": "laravel",
+            "name": "fortify",
+            "text": "\u003c?php use Illuminate\\Support\\Facades\\Route;use Laravel\\Fortify\\Features;use Laravel\\Fortify\\Http\\Controllers\\AuthenticatedSessionController;use Laravel\\Fortify\\Http\\Controllers\\ConfirmablePasswordC..."
+          }
+        ],
+        "metatags": [
+          {
+            "octolytics-url": "https://collector.github.com/github/collect",
+            "apple-itunes-app": "app-id=1477376905",
+            "og:image": "https://opengraph.githubassets.com/761372905407670024108dde49fad8e75da769d507fc91a4126601722393a16e/laravel/fortify",
+            "twitter:card": "summary_large_image",
+            "og:image:width": "1200",
+            "theme-color": "#1e2327",
+            "og:site_name": "GitHub",
+            "hovercard-subject-tag": "repository:291804966",
+            "turbo-body-classes": "logged-out env-production page-responsive page-blob",
+            "html-safe-nonce": "75c3cd60ccb41b30853518026c9b6ec87df1fbbdb8dfa42f56ef6a4bc8f9989c",
+            "expected-hostname": "github.com",
+            "og:description": "Backend controllers and scaffolding for Laravel authentication. - fortify/routes.php at 1.x · laravel/fortify",
+            "browser-errors-url": "https://api.github.com/_private/browser/errors",
+            "octolytics-dimension-user_login": "laravel",
+            "hostname": "github.com",
+            "twitter:site": "@github",
+            "browser-stats-url": "https://api.github.com/_private/browser/stats",
+            "visitor-payload": "eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJBRjlGOjQ0NDk6MzdBOEZDNzo1MDdGRkRFOjYzRUE3Njk1IiwidmlzaXRvcl9pZCI6IjI1NDQyMDMwMDc4NDYyOTM5OCIsInJlZ2lvbl9lZGdlIjoiaWFkIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9",
+            "github-keyboard-shortcuts": "repository,source-code,file-tree",
+            "octolytics-dimension-repository_id": "291804966",
+            "octolytics-dimension-repository_network_root_nwo": "laravel/fortify",
+            "enabled-features": "TURBO_EXPERIMENT_RISKY,IMAGE_METRIC_TRACKING,GEOJSON_AZURE_MAPS",
+            "twitter:title": "fortify/routes.php at 1.x · laravel/fortify",
+            "og:image:alt": "Backend controllers and scaffolding for Laravel authentication. - fortify/routes.php at 1.x · laravel/fortify",
+            "og:type": "object",
+            "optimizely-datafile": "{\"groups\": [], \"environmentKey\": \"production\", \"rollouts\": [], \"typedAudiences\": [], \"projectId\": \"16737760170\", \"variables\": [], \"featureFlags\": [], \"experiments\": [], \"version\": \"4\", \"audiences\": [{\"conditions\": \"[\\\"or\\\", {\\\"match\\\": \\\"exact\\\", \\\"name\\\": \\\"$opt_dummy_attribute\\\", \\\"type\\\": \\\"custom_attribute\\\", \\\"value\\\": \\\"$opt_dummy_value\\\"}]\", \"id\": \"$opt_dummy_audience\", \"name\": \"Optimizely-Generated Audience for Backwards Compatibility\"}], \"anonymizeIP\": true, \"sdkKey\": \"WTc6awnGuYDdG98CYRban\", \"attributes\": [{\"id\": \"16822470375\", \"key\": \"user_id\"}, {\"id\": \"17143601254\", \"key\": \"spammy\"}, {\"id\": \"18175660309\", \"key\": \"organization_plan\"}, {\"id\": \"18813001570\", \"key\": \"is_logged_in\"}, {\"id\": \"19073851829\", \"key\": \"geo\"}, {\"id\": \"20175462351\", \"key\": \"requestedCurrency\"}, {\"id\": \"20785470195\", \"key\": \"country_code\"}, {\"id\": \"21656311196\", \"key\": \"opened_downgrade_dialog\"}], \"botFiltering\": false, \"accountId\": \"16737760170\", \"events\": [{\"experimentIds\": [], \"id\": \"17911811441\", \"key\": \"hydro_click.dashboa",
+            "og:title": "fortify/routes.php at 1.x · laravel/fortify",
+            "visitor-hmac": "696c7286a2565c7f99dd89b8871b1339458ddb27ffd487b19684833d3712c5bb",
+            "og:image:height": "600",
+            "turbo-cache-control": "no-preview",
+            "request-id": "AF9F:4449:37A8FC7:507FFDE:63EA7695",
+            "analytics-location": "/\u003cuser-name\u003e/\u003crepo-name\u003e/blob/show",
+            "color-scheme": "light dark",
+            "octolytics-dimension-repository_is_fork": "false",
+            "go-import": "github.com/laravel/fortify git https://github.com/laravel/fortify.git",
+            "browser-optimizely-client-errors-url": "https://api.github.com/_private/browser/optimizely_client/errors",
+            "twitter:image:src": "https://opengraph.githubassets.com/761372905407670024108dde49fad8e75da769d507fc91a4126601722393a16e/laravel/fortify",
+            "octolytics-dimension-user_id": "958072",
+            "octolytics-dimension-repository_public": "true",
+            "fb:app_id": "1401488693436528",
+            "octolytics-dimension-repository_network_root_id": "291804966",
+            "octolytics-dimension-repository_nwo": "laravel/fortify",
+            "viewport": "width=device-width",
+            "twitter:description": "Backend controllers and scaffolding for Laravel authentication. - fortify/routes.php at 1.x · laravel/fortify",
+            "og:url": "https://github.com/laravel/fortify"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://opengraph.githubassets.com/761372905407670024108dde49fad8e75da769d507fc91a4126601722393a16e/laravel/fortify"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Laravel Document（ドキュメント）",
+      "htmlTitle": "\u003cb\u003eLaravel\u003c/b\u003e Document（ドキュメント）",
+      "link": "https://readouble.com/laravel/",
+      "displayLink": "readouble.com",
+      "snippet": "Laravel関連パッケージ最新日本語ドキュメント · Laravel Document（ドキュメント）.",
+      "htmlSnippet": "\u003cb\u003eLaravel\u003c/b\u003e関連パッケージ最新日本語ドキュメント &middot; \u003cb\u003eLaravel\u003c/b\u003e Document（ドキュメント）.",
+      "cacheId": "Ae9_FyEKwYoJ",
+      "formattedUrl": "https://readouble.com/laravel/",
+      "htmlFormattedUrl": "https://readouble.com/\u003cb\u003elaravel\u003c/b\u003e/",
+      "pagemap": {
+        "metatags": [
+          {
+            "theme-color": "#ffffff",
+            "viewport": "width=device-width, initial-scale=1.0"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "【超入門】Laravel とは？できること・基本をわかりやすく解説 ...",
+      "htmlTitle": "【超入門】\u003cb\u003eLaravel\u003c/b\u003e とは？できること・基本をわかりやすく解説 ...",
+      "link": "https://www.kagoya.jp/howto/it-glossary/develop/laravel/",
+      "displayLink": "www.kagoya.jp",
+      "snippet": "2022/07/27 ... Laravel（ララベル）とは？ 2011年に公開された「Webアプリケーションフレームワーク」で、2022年6月時点の最新バージョンは9です。公式 ...",
+      "htmlSnippet": "2022/07/27 \u003cb\u003e...\u003c/b\u003e \u003cb\u003eLaravel\u003c/b\u003e（ララベル）とは？ 2011年に公開された「Webアプリケーションフレームワーク」で、2022年6月時点の最新バージョンは9です。公式&nbsp;...",
+      "cacheId": "wjjQr17q2VcJ",
+      "formattedUrl": "https://www.kagoya.jp/howto/it-glossary/develop/laravel/",
+      "htmlFormattedUrl": "https://www.kagoya.jp/howto/it-glossary/develop/\u003cb\u003elaravel\u003c/b\u003e/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRLTTHQQbSJEHcbxweIM1VbeWpyjS_vDXtYEq93387ogOfA_fD1TDOmNcg",
+            "width": "310",
+            "height": "163"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://www.kagoya.jp/howto/wp-content/uploads/202206e_catch.png",
+            "og:type": "article",
+            "article:published_time": "2022-07-27T01:00:00+00:00",
+            "og:image:width": "1200",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "カゴヤのサーバー研究室",
+            "author": "西山一郎",
+            "og:title": "【超入門】Laravel とは？できること・基本をわかりやすく解説 - カゴヤのサーバー研究室",
+            "og:image:height": "630",
+            "twitter:label1": "執筆者",
+            "twitter:label2": "推定読み取り時間",
+            "og:image:type": "image/png",
+            "og:description": "Laravel",
+            "twitter:data1": "西山一郎",
+            "twitter:data2": "14分",
+            "article:modified_time": "2022-08-09T08:52:39+00:00",
+            "viewport": "width=device-width, initial-scale=1.0",
+            "og:locale": "ja_JP",
+            "og:url": "https://www.kagoya.jp/howto/it-glossary/develop/laravel/",
+            "format-detection": "telephone=no"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://www.kagoya.jp/howto/wp-content/uploads/202206e_catch.png"
+          }
+        ],
+        "listitem": [
+          {
+            "item": "カゴヤのサーバー研究室",
+            "name": "カゴヤのサーバー研究室",
+            "position": "1"
+          },
+          {
+            "item": "IT用語の部屋",
+            "name": "IT用語の部屋",
+            "position": "2"
+          },
+          {
+            "item": "開発",
+            "name": "開発",
+            "position": "3"
+          },
+          {
+            "item": "【超入門】Laravel とは？できること・基本をわかりやすく解説",
+            "name": "【超入門】Laravel とは？できること・基本をわかりやすく解説",
+            "position": "4"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "インストール 8.x Laravel",
+      "htmlTitle": "インストール 8.x \u003cb\u003eLaravel\u003c/b\u003e",
+      "link": "https://readouble.com/laravel/8.x/ja/installation.html",
+      "displayLink": "readouble.com",
+      "snippet": "Laravelは、表現力豊かでエレガントな構文を備えたWebアプリケーションフレームワークです。Webフレームワークは、アプリケーションを作成するための構造と開始点を ...",
+      "htmlSnippet": "\u003cb\u003eLaravel\u003c/b\u003eは、表現力豊かでエレガントな構文を備えたWebアプリケーションフレームワークです。Webフレームワークは、アプリケーションを作成するための構造と開始点を&nbsp;...",
+      "cacheId": "Fce_7G-HqBcJ",
+      "formattedUrl": "https://readouble.com/laravel/8.x/ja/installation.html",
+      "htmlFormattedUrl": "https://readouble.com/\u003cb\u003elaravel\u003c/b\u003e/8.x/ja/installation.html",
+      "pagemap": {
+        "metatags": [
+          {
+            "theme-color": "#ffffff",
+            "viewport": "width=device-width, initial-scale=1.0"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Grouping the Laravel Api Resources - Stack Overflow",
+      "htmlTitle": "Grouping the \u003cb\u003eLaravel\u003c/b\u003e Api Resources - Stack Overflow",
+      "link": "https://stackoverflow.com/questions/49715459/grouping-the-laravel-api-resources",
+      "displayLink": "stackoverflow.com",
+      "snippet": "2018/04/08 ... I'm trying to group the json response in Laravel 5.5. My table is following +-- ...",
+      "htmlSnippet": "2018/04/08 \u003cb\u003e...\u003c/b\u003e I&#39;m trying to group the json response in \u003cb\u003eLaravel\u003c/b\u003e 5.5. My table is following +--&nbsp;...",
+      "cacheId": "rp6mzab5v-QJ",
+      "formattedUrl": "https://stackoverflow.com/questions/.../grouping-the-laravel-api-resources",
+      "htmlFormattedUrl": "https://stackoverflow.com/questions/.../grouping-the-\u003cb\u003elaravel\u003c/b\u003e-api-resources",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQYl7zuT3cw_BBRAyhdQEbQuBgqdNHXKHIYKL8S8ly8x9L_XA9sdwSmiHs",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "qapage": [
+          {
+            "image": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded",
+            "primaryimageofpage": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded",
+            "name": "Grouping the Laravel Api Resources",
+            "description": "I'm trying to group the json response in Laravel 5.5 My table is following +------+-------+------------------------------------------------------- -----------------------------------------------..."
+          }
+        ],
+        "question": [
+          {
+            "image": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a",
+            "upvotecount": "0",
+            "answercount": "1",
+            "name": "Grouping the Laravel Api Resources",
+            "datecreated": "2018-04-08T07:20:09",
+            "text": "I'm trying to group the json response in Laravel 5.5 My table is following +------+-------+------------------------------------------------------- --------------------------------------------------...",
+            "url": "Share"
+          }
+        ],
+        "answer": [
+          {
+            "upvotecount": "0",
+            "commentcount": "4",
+            "text": "Edit your controller to class PublicationController extends Controller { public function index() { $publications = Publication::orderBy('year', 'DESC') -\u003eorderBy('month', 'DESC') -\u003eget(); return...",
+            "datecreated": "2018-04-08T16:58:22",
+            "url": "Share"
+          }
+        ],
+        "person": [
+          {
+            "name": "Ryutaro Matsumoto"
+          },
+          {
+            "name": "Hussein"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded",
+            "og:type": "website",
+            "twitter:card": "summary",
+            "twitter:title": "Grouping the Laravel Api Resources",
+            "og:site_name": "Stack Overflow",
+            "twitter:domain": "stackoverflow.com",
+            "viewport": "width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0",
+            "twitter:description": "I'm trying to group the json response in Laravel 5.5\n\nMy table is following\n\n+------+-------+------------------------------------------------------- \n-----------------------------------------------...",
+            "og:url": "https://stackoverflow.com/questions/49715459/grouping-the-laravel-api-resources"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Drawings | Laravel Excel",
+      "htmlTitle": "Drawings | \u003cb\u003eLaravel\u003c/b\u003e Excel",
+      "link": "https://docs.laravel-excel.com/3.1/exports/drawings.html",
+      "displayLink": "docs.laravel-excel.com",
+      "snippet": "By using the WithDrawings concern, you can add one or multiple drawings to your worksheet. # Instantiating a drawing. You first have to instantiate a new ...",
+      "htmlSnippet": "By using the WithDrawings concern, you can add one or multiple drawings to your worksheet. # Instantiating a drawing. You first have to instantiate a new&nbsp;...",
+      "cacheId": "DnJ3qT9tSX0J",
+      "formattedUrl": "https://docs.laravel-excel.com/3.1/exports/drawings.html",
+      "htmlFormattedUrl": "https://docs.\u003cb\u003elaravel\u003c/b\u003e-excel.com/3.1/exports/drawings.html"
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Laravel nested or with and in where condition - Stack Overflow",
+      "htmlTitle": "\u003cb\u003eLaravel\u003c/b\u003e nested or with and in where condition - Stack Overflow",
+      "link": "https://stackoverflow.com/questions/74825033/laravel-nested-or-with-and-in-where-condition",
+      "displayLink": "stackoverflow.com",
+      "snippet": "2022/12/16 ... try this -\u003ewhere(function ($query) { $query-\u003ewhere('title','like','%問いかけの作法 チームの魅力と才能を引き出す技術%') -\u003eorWhere('title' ...",
+      "htmlSnippet": "2022/12/16 \u003cb\u003e...\u003c/b\u003e try this -&gt;where(function ($query) { $query-&gt;where(&#39;title&#39;,&#39;like&#39;,&#39;%問いかけの作法 チームの魅力と才能を引き出す技術%&#39;) -&gt;orWhere(&#39;title&#39;&nbsp;...",
+      "cacheId": "XSs4r2jgd8MJ",
+      "formattedUrl": "https://stackoverflow.com/.../laravel-nested-or-with-and-in-where-condition",
+      "htmlFormattedUrl": "https://stackoverflow.com/.../\u003cb\u003elaravel\u003c/b\u003e-nested-or-with-and-in-where-condition",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQYl7zuT3cw_BBRAyhdQEbQuBgqdNHXKHIYKL8S8ly8x9L_XA9sdwSmiHs",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "qapage": [
+          {
+            "image": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded",
+            "primaryimageofpage": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded",
+            "name": "Laravel nested or with and in where condition",
+            "description": "My Expected query is select count(*) as aggregate from `books` where (`books`.`is_deleted` = 0) and `category_id` = '61' and (`title` like '%問いかけの作法 チームの魅力と才能を引..."
+          }
+        ],
+        "question": [
+          {
+            "image": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a",
+            "upvotecount": "0",
+            "commentcount": "1",
+            "answercount": "2",
+            "name": "Laravel nested or with and in where condition",
+            "datecreated": "2022-12-16T13:21:50",
+            "text": "My Expected query is select count(*) as aggregate from `books` where (`books`.`is_deleted` = 0) and `category_id` = '61' and (`title` like '%問いかけの作法 チームの魅力と才能を引...",
+            "url": "Share"
+          }
+        ],
+        "answer": [
+          {
+            "upvotecount": "2",
+            "text": "try this -\u003ewhere(function ($query) { $query-\u003ewhere('title','like','%問いかけの作法 チームの魅力と才能を引き出す技術%') -\u003eorWhere('title','like','%問イカケノ作法...",
+            "datecreated": "2022-12-16T14:23:18",
+            "url": "Share"
+          },
+          {
+            "upvotecount": "0",
+            "commentcount": "1",
+            "text": "You should try whereRaw with raw query instead of orWhere So, instead of this -\u003eorWhere('title','like','%'.$kana.'%') -\u003eorWhere('title','like','%'.$katakana.'%'); Do this -\u003ewhereRaw('title...",
+            "datecreated": "2022-12-16T14:28:34",
+            "url": "Share"
+          }
+        ],
+        "person": [
+          {
+            "name": "Niloy Rony"
+          },
+          {
+            "name": "itachi"
+          },
+          {
+            "name": "ket-c"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded",
+            "og:type": "website",
+            "twitter:card": "summary",
+            "twitter:title": "Laravel nested or with and in where condition",
+            "og:site_name": "Stack Overflow",
+            "twitter:domain": "stackoverflow.com",
+            "viewport": "width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0",
+            "twitter:description": "My Expected query is\nselect count(*) as aggregate from `books` \nwhere (`books`.`is_deleted` = 0) \nand `category_id` = '61' \nand (`title` like '%問いかけの作法 チームの魅力と才能を引き出す技術%' or `title` like '%問イカケノ作法",
+            "og:url": "https://stackoverflow.com/questions/74825033/laravel-nested-or-with-and-in-where-condition"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "プロフェッショナルWebプログラミング Laravel｜株式会社エムディ ...",
+      "htmlTitle": "プロフェッショナルWebプログラミング \u003cb\u003eLaravel\u003c/b\u003e｜株式会社エムディ ...",
+      "link": "https://books.mdn.co.jp/books/3221303041/",
+      "displayLink": "books.mdn.co.jp",
+      "snippet": "2022/03/28 ... Laravel 9の最新環境でWebアプリケーションを構築！",
+      "htmlSnippet": "2022/03/28 \u003cb\u003e...\u003c/b\u003e \u003cb\u003eLaravel\u003c/b\u003e 9の最新環境でWebアプリケーションを構築！",
+      "cacheId": "e5p5g2IjHcEJ",
+      "formattedUrl": "https://books.mdn.co.jp/books/3221303041/",
+      "htmlFormattedUrl": "https://books.mdn.co.jp/books/3221303041/",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSa6312yCh-k00CW6UCTAZU1cL8Lhg3EcfKGzljIvnAUiF-ENbYvJ9d3vbs",
+            "width": "199",
+            "height": "253"
+          }
+        ],
+        "metatags": [
+          {
+            "msapplication-tilecolor": "#383838",
+            "og:image": "https://img.ips.co.jp/mdn/21/3221303041/3221303041-x1000.jpg",
+            "og:type": "website",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "プロフェッショナルWebプログラミング　Laravel",
+            "og:site_name": "株式会社エムディエヌコーポレーション",
+            "og:title": "プロフェッショナルWebプログラミング　Laravel",
+            "msapplication-tileimage": "../../pinned.png",
+            "og:description": "Laravel 9の最新環境でWebアプリケーションを構築！",
+            "twitter:image": "https://img.ips.co.jp/mdn/21/3221303041/3221303041-x1000.jpg",
+            "twitter:site": "@mdn_books",
+            "viewport": "width=device-width",
+            "twitter:description": "Laravel 9の最新環境でWebアプリケーションを構築！",
+            "og:locale": "ja_JP",
+            "og:url": "https://books.mdn.co.jp/books/3221303041/",
+            "format-detection": "telephone=no"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://img.ips.co.jp/mdn/21/3221303041/3221303041-x1000.jpg"
+          }
+        ]
+      }
+    }
+  ]
+}
